@@ -1,8 +1,8 @@
 {
-  "name": "typescript-project-starter-template",
+  "name": "llm-hallucination-detection-service",
   "version": "1.0.0",
-  "description": "Project starter template pre-configured with TypeScript, ESLint, Prettier, Jest, SWC, PNPM and more.",
-  "main": "index.js",
+  "description": "Build your own open-source REST API endpoint to detect hallucination in LLM generated responses.",
+  "main": "lib/index.js",
   "scripts": {
     "build": "swc --strip-leading-paths --delete-dir-on-start -d lib src && tsc",
     "dev": "nodemon -x tsx src/index.ts",
@@ -14,7 +14,10 @@
   },
   "keywords": [
     "ai",
-    "conversational ai"
+    "conversational ai",
+    "llm",
+    "hallucination detection",
+    "llm hallucination"
   ],
   "author": "Pranav Kural (https://github.com/pranav-kural)",
   "license": "MIT",
@@ -35,5 +38,9 @@
     "typescript": "^5.5.4",
     "typescript-eslint": "^8.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@genkit-ai/dotprompt": "^0.5.10",
+    "@oconva/qvikchat": "^2.0.2",
+    "zod": "^3.23.8"
+  }
 }
