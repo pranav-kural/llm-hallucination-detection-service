@@ -120,6 +120,8 @@ For more information on how to install the Firebase Genkit CLI, please check the
 
 Once you have the Genkit Developer UI loaded in your browser, you should be able to see the `detect` endpoints under the **Flows** section in the left sidebar. Simply click on the endpoint, and enter the query you want to test with. Clicking the **Run** button will send the query to the endpoint and the response generation process will start.
 
+![llm-hallucination-sample](https://github.com/user-attachments/assets/338b579e-af13-48a0-a92e-80c58ce21a4a)
+
 ### Linting
 
 Pre-configured with ESLint to enforce code quality and consistency. You can run ESLint using the following command:
