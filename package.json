@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@genkit-ai/dotprompt": "^0.5.10",
-    "@oconva/qvikchat": "^2.0.2",
+    "@oconva/qvikchat": "^2.0.3",
     "zod": "^3.23.8"
   }
 }
